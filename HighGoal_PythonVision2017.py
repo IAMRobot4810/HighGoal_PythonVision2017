@@ -90,7 +90,7 @@ def find_lines(frame, result):
         #actual distance  = CONSTANT_OF_AREA / size
         dist = CONSTANT_OF_AREA / size
 
-        speed = get_speed_from_distance(dist)
+        speed = get_speed_from_distance(dist) # need a field to test this
 
         # ------------------------------------------------------------------------------------------
         # JUST OUTPUT PROCESSED IMAGE
